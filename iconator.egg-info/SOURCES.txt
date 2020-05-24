@@ -1,0 +1,9 @@
+setup.py
+iconator/__init__.py
+iconator/functions.py
+iconator/hello.py
+iconator.egg-info/PKG-INFO
+iconator.egg-info/SOURCES.txt
+iconator.egg-info/dependency_links.txt
+iconator.egg-info/not-zip-safe
+iconator.egg-info/top_level.txt
