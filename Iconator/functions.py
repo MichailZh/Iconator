@@ -7,8 +7,7 @@ def power(x, y):
 
 
 def get_svg(svgName):
-    with open("Iconator/" + "icons" + "/" + svgName, 'r') as file:
+    with open("Iconator/" + "icons" + "/" + svgName + ".svg", 'r') as file:
         data = file.read()
-        # print(data)
         return data
 
