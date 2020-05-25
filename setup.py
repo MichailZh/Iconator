@@ -12,7 +12,7 @@ setup(
     # packages = find_packages(include=['templatetags','icons','iconator']),
     # package_data={'iconator':['LICENSE.txt']},
     # include_package_data=True,
-    packages = ['iconator', 'templatetags'],
+    packages = ['iconator'],
     keywords = ['ICONS', 'DJANGO'],
     zip_safe=False,
     classifiers=[
