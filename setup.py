@@ -11,9 +11,9 @@ setup(
     author_email='michail.zhukov@gmail.com',
     url='https://github.com/MichailZh/Iconator.git',
     download_url = 'https://github.com/MichailZh/Iconator/archive/v_01.tar.gz',
-    packages = find_packages(include=['templatetags','icons']),
-    package_data={'iconator':['LICENSE.txt']},
-    include_package_data=True,
+    packages = find_packages(include=['templatetags','icons','iconator']),
+    # package_data={'iconator':['LICENSE.txt']},
+    # include_package_data=True,
     keywords = ['ICONS', 'DJANGO'],
     zip_safe=False,
     classifiers=[
