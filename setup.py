@@ -1,4 +1,6 @@
-from setuptools import setup
+from setuptools import setup, find_packages
+
+
 
 setup(
     name='iconator',
@@ -9,7 +11,8 @@ setup(
     author_email='michail.zhukov@gmail.com',
     url='https://github.com/MichailZh/Iconator.git',
     download_url = 'https://github.com/MichailZh/Iconator/archive/v_01.tar.gz',
-    packages=['iconator'],
+    packages = find_packages(include=['templatetags','icons']),
+    package_data={''},
     include_package_data=True,
     keywords = ['ICONS', 'DJANGO'],
     zip_safe=False,
