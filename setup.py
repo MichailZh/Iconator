@@ -10,6 +10,7 @@ setup(
     url='https://github.com/MichailZh/Iconator.git',
     download_url = 'https://github.com/MichailZh/Iconator/archive/v_01.tar.gz',
     packages=['iconator'],
+    include_package_data=True,
     keywords = ['ICONS', 'DJANGO'],
     zip_safe=False,
     classifiers=[
