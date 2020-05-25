@@ -1,4 +1,5 @@
-from .functions import power, average, get_svg
-from .hello import test_method
+from .functions import get_svg
+from . import templatetags
+
 
 default_app_config = 'iconator.apps.IconatorConfig'
