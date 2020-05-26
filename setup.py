@@ -14,7 +14,7 @@ setup(
     # package_data={'iconator':['LICENSE.txt']},
 
     packages = find_packages(
-        where= './',
+
         include=['iconator', 'iconator.*'],
     ),
     include_package_data=True,
