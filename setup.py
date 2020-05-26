@@ -1,5 +1,9 @@
 from setuptools import setup, find_packages
 
+packages = find_packages(
+    where='./',
+    include=['iconator', 'iconator.*']
+),
 
 setup(
     name='iconator',
@@ -10,10 +14,7 @@ setup(
     author_email='michail.zhukov@gmail.com',
     url='https://github.com/MichailZh/Iconator.git',
     download_url = 'https://github.com/MichailZh/Iconator/archive/v_01.tar.gz',
-    # packages = find_packages(include=['templatetags','icons','iconator']),
-    # package_data={'iconator':['LICENSE.txt']},
-
-    packages = ['iconator'],
+    packages = packages,
     include_package_data=True,
     keywords = ['ICONS', 'DJANGO'],
     zip_safe=False,
