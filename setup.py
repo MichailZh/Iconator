@@ -3,7 +3,9 @@ from setuptools import setup, find_packages
 packages = find_packages(
     where='.',
     include=['iconator', 'iconator.*']
-),
+)
+if not packages:
+    raise ValueError('No packages detected.')
 
 setup(
     name='iconator',
