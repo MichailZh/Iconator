@@ -1,11 +1,5 @@
 from setuptools import setup, find_packages
 
-packages = find_packages(
-    where= './',
-    include=['iconator', 'iconator.*'],
-)
-if not packages:
-    raise ValueError('No packages detected.')
 
 setup(
     name='iconator',
@@ -19,7 +13,10 @@ setup(
     # packages = find_packages(include=['templatetags','icons','iconator']),
     # package_data={'iconator':['LICENSE.txt']},
 
-    packages = packages,
+    packages = find_packages(
+        where= './',
+        include=['iconator', 'iconator.*'],
+    ),
     include_package_data=True,
     keywords = ['ICONS', 'DJANGO'],
     zip_safe=False,
