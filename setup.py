@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
-packages = find_packages(
-    where='.',
-    include=['iconator', 'iconator.*']
-)
-if not packages:
-    raise ValueError('No packages detected.')
+# packages = find_packages(
+#     # where='./',
+#     include=['iconator', 'iconator.*']
+# )
+# if not packages:
+#     raise ValueError('No packages detected.')
 
 setup(
     name='iconator',
@@ -16,7 +16,7 @@ setup(
     author_email='michail.zhukov@gmail.com',
     url='https://github.com/MichailZh/Iconator.git',
     download_url = 'https://github.com/MichailZh/Iconator/archive/v_01.tar.gz',
-    packages = packages,
+    packages = ['iconator', 'iconator.icons', 'iconator.templatetags'],
     include_package_data=True,
     keywords = ['ICONS', 'DJANGO'],
     zip_safe=False,
