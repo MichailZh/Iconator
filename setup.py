@@ -1,5 +1,12 @@
 from setuptools import setup, find_packages
 
+packages = find_packages(
+    where= './',
+    include=['iconator', 'iconator.*'],
+)
+if not packages:
+    raise ValueError('No packages detected.')
+
 setup(
     name='iconator',
     version='0.0.1',
@@ -11,8 +18,9 @@ setup(
     download_url = 'https://github.com/MichailZh/Iconator/archive/v_01.tar.gz',
     # packages = find_packages(include=['templatetags','icons','iconator']),
     # package_data={'iconator':['LICENSE.txt']},
+
+    packages = packages,
     include_package_data=True,
-    # packages = ['iconator'],
     keywords = ['ICONS', 'DJANGO'],
     zip_safe=False,
     classifiers=[
