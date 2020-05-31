@@ -1,6 +1,8 @@
 from django import template
 import os.path
 
+from django.utils.safestring import mark_safe
+
 register = template.Library()
 
 
@@ -10,4 +12,4 @@ def iconator(name):
     path = os.path.join(rel_path, "icons"+ "/" + name + ".svg")
     with open(path, 'r') as file:
         data = file.read()
-        return data
+        return mark_safe(data)
