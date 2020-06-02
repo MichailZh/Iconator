@@ -12,4 +12,4 @@ def iconator(name, **options):
     path = os.path.join(rel_path, "icons" + "/" + name + ".svg")
     with open(path, 'r') as file:
         data = file.read()
-        return mark_safe(data), mark_safe(options)
+        return mark_safe(data), mark_safe(**options)
