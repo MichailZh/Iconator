@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Iconator.iml" filepath="$PROJECT_DIR$/Iconator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Iconatron.iml" filepath="$PROJECT_DIR$/Iconatron.iml" />
     </modules>
   </component>
 </project>

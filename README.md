@@ -1,4 +1,4 @@
-Iconator version: 0.0.1
+Iconatron version: 0.0.1
 
 You can install this package from PYPI using pip
 

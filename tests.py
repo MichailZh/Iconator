@@ -1,4 +1,4 @@
-from Iconator import get_svg
+from Iconatron import get_svg
 
 print(get_svg("PlusCircle"))
 

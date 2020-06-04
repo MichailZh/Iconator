@@ -1,22 +1,15 @@
-from setuptools import setup, find_packages
-
-# packages = find_packages(
-#     # where='./',
-#     include=['iconator', 'iconator.*']
-# )
-# if not packages:
-#     raise ValueError('No packages detected.')
+from setuptools import setup
 
 setup(
-    name='iconator',
+    name='iconatron',
     version='0.0.1',
     description='icons package for django',
     license='MIT',
     author='MichailZh',
     author_email='michail.zhukov@gmail.com',
-    url='https://github.com/MichailZh/Iconator.git',
-    download_url = 'https://github.com/MichailZh/Iconator/archive/v_01.tar.gz',
-    packages = ['iconator', 'iconator.templatetags'],
+    url='https://github.com/MichailZh/Iconatron.git',
+    download_url = 'https://github.com/MichailZh/Iconatron/archive/V_02.tar.gz',
+    packages = ['iconatron', 'iconatron.templatetags'],
     include_package_data=True,
     keywords = ['ICONS', 'DJANGO'],
     zip_safe=False,

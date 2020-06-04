@@ -1,1 +1,1 @@
-include iconator/templatetags/icons/*
+include iconatron/templatetags/icons/*
