@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='iconatron',
-    version='0.0.1',
+    version='0.1.3',
     description='icons package for django',
     license='MIT',
     author='MichailZh',
